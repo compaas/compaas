@@ -39,7 +39,7 @@ setup(
     ],
     keywords='aas',
     packages=find_packages(exclude=['docs', 'tests*']),
-    install_requires=['future'],
+    install_requires=['future', 'requests', 'xmltodict'],
     tests_require=['pytest'],
     # package_data={},
 )
